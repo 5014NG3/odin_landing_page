@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.desc .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding: 16px;
+}
+
+.illustrations {
+    display: flex;
+    gap: 20px;
+}
+
+.itext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotesec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.person {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.signbox {
+    display: flex;
+    justify-content: center;
+}
+
+.signbox .title{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    align-self: center;
+    
+}
+
